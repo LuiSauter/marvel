@@ -1,0 +1,17 @@
+.sidebar {
+    position: absolute;
+    background-color: $color-rojo;
+    height: 100vh;
+    transform: translateX(-100%);
+    width: 100%;
+    transition: transform 560ms;
+    overflow: hidden;
+    position: fixed;
+    &.active {
+        transform: translateX(0%);
+    }
+    
+    @include laptop {
+        width: 300px;
+    }
+}

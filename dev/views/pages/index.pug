@@ -1,0 +1,14 @@
+extends ../template/template
+block container
+    h2.titles Personajes de Marvel
+    h4.titleh4 Selecciona que quieres mostrar 
+    form.selected#form
+        select(name='select')#select
+            option(value="default") select
+            option(value="all") All
+            option(value="male") Male
+            option(value="female") Female
+        input(type="submit" name="button" value="Get Characters")#button.button
+    .grid-container#container
+    
+block footer

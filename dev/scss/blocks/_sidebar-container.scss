@@ -1,0 +1,15 @@
+.sidebar-container {
+    display: grid;
+    grid-auto-rows: 40px;
+    height: 90vh;
+    width: 100%;
+    gap: 10px;
+    margin-top: 5.8rem;
+    font-size: 1.3rem;
+    &__li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

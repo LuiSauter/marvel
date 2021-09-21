@@ -1,0 +1,188 @@
+[
+   {
+      "type":"database",
+      "name":"marvel"
+   },
+   {
+      "type":"table",
+      "name":"characters",
+      "database":"marvel",
+      "data":[
+         {
+            "ID":"1",
+            "Name":"Spider Man",
+            "Description":"Con increíbles habilidades de araña, el genio de la ciencia adolescente Peter Parker lucha contra el crimen y sueña con convertirse en un Vengador como Spider-Man.",
+            "Gender":"Hombre",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/005smp-com_mas_dsk_04.jpg"
+         },
+         {
+            "ID":"2",
+            "Name":"Iron Man",
+            "Description":"Genio. Multimillonario. Filántropo. La confianza de Tony Stark solo se compara con sus habilidades de alto vuelo como el héroe llamado Iron Man.",
+            "Gender":"Hombre",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/002irm_ons_mas_mob_01_0.jpg"
+         },
+         {
+            "ID":"3",
+            "Name":"Hulk",
+            "Description":"El Dr. Bruce Banner vive una vida atrapado entre el científico de voz suave que siempre ha sido y el monstruo verde incontrolable impulsado por su rabia.",
+            "Gender":"Hombre",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/006hbb_ons_mas_dsk_02_1.jpg"
+         },
+         {
+            "ID":"4",
+            "Name":"Wanda Maximoff",
+            "Description":"Notablemente poderosa, Wanda Maximoff ha luchado contra y con los Vengadores, intentando perfeccionar sus habilidades y hacer lo que cree que es correcto para ayudar al mundo.",
+            "Gender":"Mujer",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/012scw_ons_mas_dsk_02_0.jpg"
+         },
+         {
+            "ID":"5",
+            "Name":"Thor",
+            "Description":"El hijo de Odin usa sus poderosas habilidades como Dios del Trueno para proteger su hogar Asgard y el planeta Tierra por igual.",
+            "Gender":"Hombre",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/004tho_ons_mas_mob_01_0.jpg"
+         },
+         {
+            "ID":"6",
+            "Name":"Black Panter",
+            "Description":"T'Challa es el rey de la nación africana secreta y altamente avanzada de Wakanda, así como el poderoso guerrero conocido como Black Panther.",
+            "Gender":"Hombre",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/007blp_ons_mas_dsk_02.jpg"
+         },
+         {
+            "ID":"7",
+            "Name":"Capitan America",
+            "Description":"Recipiente del suero Super-Soldier, el héroe de la Segunda Guerra Mundial Steve Rogers lucha por los ideales estadounidenses como uno de los héroes más poderosos del mundo y el líder de los Vengadores.",
+            "Gender":"Hombre",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/003cap_ons_mas_dsk_01_4.jpg"
+         },
+         {
+            "ID":"8",
+            "Name":"Thanos",
+            "Description":"El Mad Titan Thanos recorre el universo en busca de las Infinity Stones, con la intención de usar su poder ilimitado para propósitos impactantes.",
+            "Gender":"Hombre",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/019tha_ons_mas_dsk_01_2.jpg"
+         },
+         {
+            "ID":"9",
+            "Name":"Loki",
+            "Description":"Dios de la travesura y hermano de Thor, los trucos y planes de Loki causan estragos en los reinos.",
+            "Gender":"Hombre",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/017lok_ons_mas_dsk_01_1.jpg"
+         },
+         {
+            "ID":"10",
+            "Name":"Gamora",
+            "Description":"Criada por Thanos para ser un arma viviente, Gamora busca la redención como miembro de los Guardianes de la Galaxia, haciendo un buen uso de sus extraordinarias habilidades de lucha.",
+            "Gender":"Mujer",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/022gam_ons_mas_mob_02_0.jpg"
+         },
+         {
+            "ID":"11",
+            "Name":"Nebula",
+            "Description":"Como pirata y mercenaria con sus intenciones de conquistar otros imperios, esta hija de Thanos es temida por muchos en todos los sistemas estelares.",
+            "Gender":"Mujer",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/043neb_ons_mas_mob_04.jpg"
+         },
+         {
+            "ID":"12",
+            "Name":"SYLVIE LAUFEYDOTTIR",
+            "Description":"Sylvie es la variante extremadamente capaz y peligrosa que resulta ser otra versión de Loki.",
+            "Gender":"Mujer",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/531esl_ons_mas_dsk_01.jpg"
+         },
+         {
+            "ID":"13",
+            "Name":"Odin",
+            "Description":"El rey de Asgard, la inmensa sabiduría de Odin lo ayuda a combatir las amenazas tanto externas como internas de su reino.",
+            "Gender":"Hombre",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/115odn_ons_mas_dsk_02_3.jpg"
+         },
+         {
+            "ID":"14",
+            "Name":"Capitana Marvel",
+            "Description":"Carol Danvers se convierte en uno de los héroes más poderosos del universo cuando la Tierra se ve atrapada en medio de una guerra galáctica entre dos razas alienígenas.",
+            "Gender":"Mujer",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/008cmv_ons_mas_dsk_02.jpg"
+         },
+         {
+            "ID":"15",
+            "Name":"Yelena",
+            "Description":"Producto de los despiadados programas de entrenamiento de la Sala Roja, esta ardiente asesina tiene una historia secreta con la Viuda Negra que está decidida a abordar.",
+            "Gender":"Mujer",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/433ybv_lob_mas_mob_03.jpg"
+         },
+         {
+            "ID":"16",
+            "Name":"BLACK WIDOW",
+            "Description":"Natasha Romanoff, separada de los Vengadores ahora fracturados, enfrenta el camino oscuro que tomó para convertirse en espía y asesina, así como los eventos que siguieron.",
+            "Gender":"Mujer",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/011blw_ons_mas_dsk_09.jpg"
+         },
+         {
+            "ID":"17",
+            "Name":"Doctor Strange",
+            "Description":"Antiguo cirujano de renombre, el doctor Stephen Strange ahora se desempeña como el Hechicero Supremo, el principal protector de la Tierra contra las amenazas mágicas y místicas.",
+            "Gender":"Hombre",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/009drs_ons_mas_dsk_02.jpg"
+         },
+         {
+            "ID":"18",
+            "Name":"Star lord",
+            "Description":"El líder de los Guardianes de la Galaxia, Peter Quill, conocido como Star-Lord, aporta un atrevido sentido del humor mientras protege al universo de todas y cada una de las amenazas.",
+            "Gender":"Man",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/021slq_ons_mas_dsk_01_0.jpg"
+         },
+         {
+            "ID":"19",
+            "Name":"Rocket",
+            "Description":"Como experto en armas y tácticas de los Guardianes de la Galaxia, Rocket arriesga su pellejo para defender el cosmos.",
+            "Gender":"Man",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/023rra_ons_mas_mob_07.jpg"
+         },
+         {
+            "ID":"20",
+            "Name":"GROOT",
+            "Description":"Este árbol alienígena sensible se ramifica fuera de su zona de confort para ayudar a los Guardianes de la Galaxia a mantener a salvo a la gente del universo.",
+            "Gender":"Hombre",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/024grt_ons_mas_mob_01_0.jpg"
+         },
+         {
+            "ID":"21",
+            "Name":"Ojo de Halcon",
+            "Description":"Clint Barton, un tirador maestro y viejo amigo de Black Widow, es el increíble arquero de los Vengadores.",
+            "Gender":"Hombre",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/018hcb_ons_mas_dsk_01_0.jpg"
+         },
+         {
+            "ID":"22",
+            "Name":"Falcon",
+            "Description":"Sam Wilson, anteriormente el Halcón, asume el manto del Capitán América mientras se une a sus compañeros Vengadores.",
+            "Gender":"Hombre",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/cap_lob_mas_mob_02.jpg"
+         },
+         {
+            "ID":"23",
+            "Name":"Vision",
+            "Description":"El androide llamado Vision desafía la física y lucha como un Vengador con el poder de la manipulación de la densidad y su impecable cerebro informático.",
+            "Gender":"Hombre",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/013vis_ons_mas_mob_01_0.jpg"
+         },
+         {
+            "ID":"24",
+            "Name":"Shang chi",
+            "Description":"Shang-Chi y la leyenda de los diez anillos, protagonizada por Simu Liu como Shang-Chi, quien debe enfrentarse al pasado que creía haber dejado atrás cuando se ve envuelto en la red de la misteriosa organización de los Diez Anillos. ",
+            "Gender":"Hombre",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/242shc_ons_mas_dsk_01.jpg"
+         },
+         {
+            "ID":"25",
+            "Name":"Agente Mobius",
+            "Description":"Mobius es un agente de Time Variance Authority que se especializa en las investigaciones de criminales de tiempo particularmente peligrosos.",
+            "Gender":"Hombre",
+            "Img":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/1078mob_ons_mas_dsk_01.jpg"
+         }
+      ]
+   }
+]

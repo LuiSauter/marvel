@@ -1,0 +1,33 @@
+doctype html
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="css/styles.css")
+        script(crossorigin="anonymous" src="https://kit.fontawesome.com/b2e0f3bd43.js")
+        script(src="https://unpkg.com/axios/dist/axios.min.js") 
+        title Marvel Heroes
+    body
+        #sidebar.sidebar
+            .sidebar-container
+                .sidebar-container__li Home
+                .sidebar-container__li Contact
+                .sidebar-container__li Settings
+                .sidebar-container__li Log out
+        #main.main
+            .page
+                .header.header__fix
+                    .toggle-menu
+                        #toggle-menu.toggle-menu__icon
+                            .first-bar
+                            .second-bar
+                            .third-bar
+                    .topbar-marvel
+                        .topbar-marvel__marvel MARVEL
+                        .topbar-marvel__studios STUDIOS
+                .content
+                    block container
+                .footer
+                    block footer
+        script(src="js/scripts-min.js") 

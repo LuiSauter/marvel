@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/b2e0f3bd43.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"> </script>
+    <title>Marvel Heroes</title>
+  </head>
+  <body>
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-container">
+        <div class="sidebar-container__li">Home</div>
+        <div class="sidebar-container__li">Contact</div>
+        <div class="sidebar-container__li">Settings</div>
+        <div class="sidebar-container__li">Log out</div>
+      </div>
+    </div>
+    <div class="main" id="main">
+      <div class="page">
+        <div class="header header__fix">
+          <div class="toggle-menu">
+            <div class="toggle-menu__icon" id="toggle-menu">
+              <div class="first-bar"></div>
+              <div class="second-bar"></div>
+              <div class="third-bar"></div>
+            </div>
+          </div>
+          <div class="topbar-marvel">
+            <div class="topbar-marvel__marvel">MARVEL</div>
+            <div class="topbar-marvel__studios">STUDIOS</div>
+          </div>
+        </div>
+        <div class="content">
+          <h2 class="titles">Personajes de Marvel</h2>
+          <h4 class="titleh4">Selecciona que quieres mostrar </h4>
+          <form class="selected" id="form">
+            <select name="select" id="select">
+              <option value="default">select</option>
+              <option value="all">All</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+            <input class="button" type="submit" name="button" value="Get Characters" id="button">
+          </form>
+          <div class="grid-container" id="container"></div>
+        </div>
+        <div class="footer">
+        </div>
+      </div>
+    </div>
+    <script src="js/scripts-min.js"> </script>
+  </body>
+</html>
